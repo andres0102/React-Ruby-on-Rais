@@ -1,0 +1,15 @@
+<main id="root"></main>
+
+<% if logged_in? %>
+  <script id="bootstrap-current-user" type="text/javascript">
+  	window.currentUser = <%= render("api/users/user.json.jbuilder",
+  		user: current_user).html_safe %>
+  </script>
+<% end %>
+
+<script type="text/javascript">
+  window.images = {
+    doncic_picture: "<%= image_url('Doncic_picture.jpg') %>",
+    jaren_jackson_picture: "<%= image_url('Jaren_Jackson_Jr.jpg') %>"
+  }
+</script>

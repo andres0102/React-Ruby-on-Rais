@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_self
+ */
+
+@import "./reset.css";
+
+@import "./api/session_form.scss";
+
+@import "./api/post_index.scss";
+
+@import "./api/nav_bar.scss";
+
+@import "./api/post_options_display_bar.scss";
+
+@import "./api/form_styling/modal_styling.scss";
+
+@import "./api/form_styling/text_form_styling.scss";
+
+@import "./api/post_popup_circles.scss";
+
+@import "./api/trending_posts_index.scss";
+
+@import "./api/form_styling/quote_form_styling.scss";
+
+@import "./api/form_styling/link_form_styling.scss";
+
+@import "./api/form_styling/photo_form_styling.scss";
+
+@import "./api/form_styling/quote_form_styling.scss";
+
+@import "./api/blogs_to_the_right.scss";
+
+@import "./api/user_profile.scss";
+
+body {
+    background: #001935;
+}
+
+
+

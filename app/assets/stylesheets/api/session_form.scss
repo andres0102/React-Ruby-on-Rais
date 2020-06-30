@@ -1,0 +1,181 @@
+// Place all the styles related to the api/users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.sign-up-login-background {
+  background-image: image-url("bundlr_background3.jpg");
+  animation: fadeIn 4s;
+  height: 100%; 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center; 
+  background-repeat: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.Log-In-Or-Sign-Up {
+  font-size: 20px; 
+  position: relative; 
+  left: 90%;
+  top: 15px; 
+  color: white;
+  z-index: 1;
+  width: 93px;
+}
+
+
+
+
+.Bundlr-Big-Text {
+  text-align: center;
+  font-family: Georgia;
+  color: white;
+  font-size: 60px; 
+  font-weight: 700;
+  z-index: 0;
+  margin-bottom: 10px;
+}
+
+.login-form-container {
+  animation: fadeUp 1s;
+  position: absolute;
+  width: 300px;
+  top:  50%;
+  left: 50%;
+  margin-top: -150px; 
+  margin-left: -150px;
+
+  // transform: translate(-50%,-50%);
+}
+
+
+
+@keyframes fadeIn {
+	from { 
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeUp {
+   from {
+      opacity: 0;
+      transform: translateY(100px);
+   }
+   to {
+      opacity: 1;
+   }
+}   
+
+.header-group {
+  font-size: 20px; 
+  position: relative;
+  left: 72%;
+}
+
+.header-button {
+  font-size: 12px;
+  position: relative;
+  left: 10%;
+}
+
+.session-submit {
+  color: white; 
+  background: #33CCFF;
+  height: 45px;
+  width: 100%;
+  margin: 12px 0 10px 0;
+  border-radius: 3px;
+}
+
+
+.fa-file-archive {
+  position: absolute; 
+  top: 15px;
+  left: 15px;
+}
+
+.Demo-Login-Button {
+  color: black; 
+  background: white;
+  width: 100%;
+  padding: 11px 10px 11px 13px;
+  display: block;
+  margin: 0;
+  border: none;
+  font: 16px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  cursor: pointer; 
+  border-radius: 3px; 
+}
+
+.Log-in-button {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  height: 32px;
+  line-height: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 20px; 
+  display: inline-block;
+}
+
+.Sign-up-button {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  height: 32px;
+  line-height: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 20px; 
+  display: inline-block;
+}
+
+.login-input {
+  width: 100%;
+  padding: 11px 10px 11px 13px;
+  display: block;
+  margin: 0;
+  border: none;
+  background-color:white;
+  font: 16px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.login-form > ul > li {
+  text-align: center;
+  padding: 14px 15px;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  line-height: 16px;
+  color: #fff;
+  background: #000000;
+  background: rgba(0,0,0,0.33);
+  margin-top: 12px;
+}
+
+#session-form-greeting {
+  color: white; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-size: 20px; 
+  text-transform: lowercase; 
+  // font-family: Helvetica, Arial, sans-serif
+  font-family: georgia;
+  text-shadow: 1px 1px 0 purple;
+}
+
+#session-form-greeting > p {
+  margin-bottom: 5px; 
+}
+
+
